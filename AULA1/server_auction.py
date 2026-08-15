@@ -185,8 +185,6 @@ def main():
                 "ERROR -> LIMIT EXCEEDED.\n".encode("utf-8")
             )
 
-            conn.close()
-
             logging.warning("Conexao recusada: limite de clientes atingido")
 
             continue
